@@ -11,6 +11,10 @@ public class Main {
             bw.write(answer + "\n"+"minus");
             bw.flush();
         }
+        else{
+            bw.write(answer+"");
+            bw.flush();
+        }
         
     }
 }
