@@ -22,7 +22,7 @@ public class Main {
             
         }
 
-        bw.write(total +" " + Math.round(total/avg * 10) / 10.0);
+        bw.write(total +" " + Math.round(total/avg * 10.0) / 10.0);
         bw.flush();
 
         bw.close();
