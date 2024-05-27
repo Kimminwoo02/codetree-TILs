@@ -10,7 +10,6 @@ public class Main {
         String res = arr1;
         Integer cnt = 0;
         for (int i =0; i<arr1.length();i++){
-     
             if(!res.equals(arr2)) {
                  cnt+=1;                
             }
@@ -25,5 +24,8 @@ public class Main {
 
         bw.write(-1+"");
         bw.flush();
+
+        bw.close();
+        br.close();
     }
 }
